@@ -5696,7 +5696,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 
 .testimonials-two {
-  padding: 60px 0px 70px 0px;
+  padding: 30px 0px 40px 0px;
   position: relative;
   z-index: 1;
 }
@@ -5747,8 +5747,8 @@ body.megamenu-popup-active .mobile-nav__content {
   mask-position: top center;
   -webkit-mask-size: auto;
   mask-size: auto;
-  width: 250px;
-  height: 335px;
+  width: 150px;
+  height: 200px;
 }
 
 @media (max-width: 1199px) and (min-width: 991px) {
@@ -5766,8 +5766,8 @@ body.megamenu-popup-active .mobile-nav__content {
 
 @media (max-width: 767px) {
   .testimonials-two__thumb {
-    width: 200px;
-    height: 268px;
+    width: 100px;
+    height: 134px;
     margin-left: auto;
     margin-right: auto;
     -webkit-mask-size: cover;
@@ -5801,25 +5801,25 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 
 .testimonials-two__star {
-  font-size: 22px;
+  font-size: 16px;
   color: var(--laboix-secondary, #0EBD66);
   letter-spacing: 1px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .testimonials-two__text {
   color: var(--laboix-white, #fff);
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 166.667%;
-  padding-bottom: 37px;
-  margin-bottom: 45px;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 @media (max-width: 1199px) {
   .testimonials-two__text {
-    font-size: 22px;
+    font-size: 16px;
   }
 }
 
@@ -5860,8 +5860,8 @@ body.megamenu-popup-active .mobile-nav__content {
 
 .testimonials-two::after {
   content: "";
-  width: 280px;
-  height: 450px;
+  width: 160px;
+  height: 240px;
   background-color: rgba(var(--laboix-secondary-rgb, 14, 189, 102), 1);
   position: absolute;
   clip-path: polygon(0 0, 100% 0, 100% 100%);
@@ -5878,7 +5878,7 @@ body.megamenu-popup-active .mobile-nav__content {
 
 .testimonials-two::before {
   content: "";
-  width: 320px;
+  width: 180px;
   height: 100%;
   background-color: rgba(var(--laboix-white-rgb, 255, 255, 255), 1);
   position: absolute;
@@ -6245,7 +6245,7 @@ body.megamenu-popup-active .mobile-nav__content {
   .video-cta__video {
     width: 140px;
     height: 150px;
-    font-size: 30px;
+    font-size: 18px;
   }
 }
 
@@ -8287,7 +8287,7 @@ body.megamenu-popup-active .mobile-nav__content {
 .product-details__comment-box {
   position: relative;
   padding: 11px 200px 52px 0;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
   min-height: 166px;
   border-bottom: 1px solid var(--laboix-border-color, #DBDBDB);
 }
