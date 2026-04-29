@@ -3750,8 +3750,9 @@ h6 {
 .main-header__btn {
   display: none;
   padding: 11px 30px;
-  background: var(--laboix-border-color2, #F3F3F3);
-  color: var(--laboix-base, #021936);
+  /* background: var(--laboix-border-color2, #F3F3F3); */
+  background: var(--laboix-secondary, #0EBD66);
+  color: #ffffff;
   font-size: 14px;
   line-height: 128.571%;
 }
