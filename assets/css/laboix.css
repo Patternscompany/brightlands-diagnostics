@@ -11381,6 +11381,15 @@ body.megamenu-popup-active .mobile-nav__content {
   color: var(--laboix-white, #fff);
 }
 
+.mobile-nav__contact li>i.fa-envelope {
+  padding: 10px;
+}
+
+.mobile-nav__contact li a {
+  word-break: break-all;
+
+}
+
 .mobile-nav__container .main-menu__logo,
 .mobile-nav__container .main-menu__right {
   display: none;
