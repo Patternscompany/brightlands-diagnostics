@@ -2957,13 +2957,14 @@ h6 {
 }
 
 .footer-widget__time {
-  background: #192C46;
-  padding: 30px;
+  /* background: #192C46; */
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .footer-widget__time__item {
-  margin-top: -7px;
-  margin-bottom: -8px;
+  /* margin-top: -7px; */
+  /* margin-bottom: -8px; */
   display: flex;
   justify-content: space-between;
 }
@@ -3111,7 +3112,7 @@ h6 {
 }
 
 .contact-one__content__thumb img {
-  margin-bottom: -70px;
+  /* margin-bottom: -70px; */
   position: relative;
 }
 
@@ -3179,6 +3180,10 @@ h6 {
 
 .contact-one__info__icon i {
   color: inherit;
+}
+
+.contact-one__info__icon i.icon-email {
+  width: 50px;
 }
 
 .contact-one__info__text {
