@@ -11699,7 +11699,7 @@ body.megamenu-popup-active .mobile-nav__content {
   border: none;
   height: 440px;
   width: 100%;
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
 }
 
 .google-map__contact {
